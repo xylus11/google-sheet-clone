@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color:#ecf0f1 ; 
+   width: 100vw;
+    height: 100vh;
+}
+.page-actions-cont {
+  height: 3rem;
+  background-color: #218c74;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 1rem;
+  position: sticky;
+  top: 0;
+}
+.tools{
+  position: sticky;
+  top: 0;
+  overflow:hidden;
+}
+.page-action{
+  width: 3.5rem;
+  height: 2rem;
+  text-align: center;
+  color: #f1f2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.page-action:hover{
+  background-color: #f1f2f6;
+  color: #218c74;
+}
+.selected-page-action{
+  background-color: #f1f2f6;
+  color: #218c74;
+}
+.root-container {
+    width: 100vw;
+    height: 80vh;
+    overflow: scroll;
+}
+.header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    width: fit-content;
+    z-index: 100;
+}
+.cell {
+    min-width: 150px;
+    padding: 5px;
+    border: 1px solid #C4C7C5 ;
+    
+  }
+  .header-cell{
+    text-align: center;
+    color: #444746;
+  }
+  .sno-cell {
+    min-width: 50px;
+    text-align: center;
+  }
+  .body {
+    display: flex;
+    width: fit-content;
+  }
+  .sno {
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+  }
+  .header > div:nth-child(1) {
+    min-width: 50px;
+    left: 0;
+    top:0;
+    position: sticky;
+    background-color: grey;
+  }
+  .main {
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .vertical-line{
+    border: 1px solid #000;
+    height: 30px;
+  }
+  .sheet-add-icon {
+    height: 2rem;
+    width: 100vw;
+    bottom: 0px;
+    margin: 0px;
+    left: 0px;
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+}
+
+ .sheet-add-icon>span{
+  padding: 5px;
+  margin-bottom: 5px;
+}

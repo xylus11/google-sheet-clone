@@ -1,0 +1,72 @@
+.tools{
+    position: sticky;
+    top: 0;
+    width: 100% ;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding: 10px 20px;
+    width: 100% ;
+    margin: auto;
+    background-color: #edf2fa;
+}
+.options input , .options select{
+    cursor: pointer;
+    width: 90px;
+}
+.options .material-icons {
+    font-size: 24px !important;
+}
+.bottom-section{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.bottom-section input{
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+}
+#active-cell{
+    background-color:white;
+    padding: 5px 20px;
+}
+.option-btn{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+.option-btn:hover {
+    background-color: #ededed;
+}
+.formula-icon {
+    width: 1.2rem;
+}
+.hidden-input {
+    width: 0 !important; 
+    height: 0;
+    border: none ;
+}
+.hidden-input:checked + label {
+    background-color: #ededed;
+}
+.text-align{
+    display: flex;
+}
+.impot-export-btn{
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.impot-export-btn:hover{
+    background-color:#ededed ;
+    cursor: pointer;
+}
+@media screen and (max-width:663px){
+    .options{
+        flex-direction: row;
+    }
+}
